@@ -1,0 +1,25 @@
+/* Custom CSS for kompiler.no */
+
+/*	Fonts and font styles
+	--------------------- */
+
+
+/*	Convenience classes
+	------------------- */
+
+/* positioning */
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.text-left {
+	text-align: left;
+}
+.text_right {
+	text-align: right;
+}
+.text_center {
+	text-align:center;
+}
