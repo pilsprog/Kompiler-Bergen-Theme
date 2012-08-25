@@ -6,7 +6,110 @@ body {
 
 /*	Fonts and font styles
 	--------------------- */
+@font-face {
+    font-family: 'UbuntuRegular';
+    src: url('../fonts/Ubuntu-R-webfont.eot');
+    src: url('../fonts/Ubuntu-R-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ubuntu-R-webfont.woff') format('woff'),
+         url('../fonts/Ubuntu-R-webfont.ttf') format('truetype'),
+         url('../fonts/Ubuntu-R-webfont.svg#UbuntuRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+@font-face {
+    font-family: 'UbuntuItalic';
+    src: url('../fonts/Ubuntu-RI-webfont.eot');
+    src: url('../fonts/Ubuntu-RI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ubuntu-RI-webfont.woff') format('woff'),
+         url('../fonts/Ubuntu-RI-webfont.ttf') format('truetype'),
+         url('../fonts/Ubuntu-RI-webfont.svg#UbuntuItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'UbuntuBold';
+    src: url('../fonts/Ubuntu-B-webfont.eot');
+    src: url('../fonts/Ubuntu-B-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ubuntu-B-webfont.woff') format('woff'),
+         url('../fonts/Ubuntu-B-webfont.ttf') format('truetype'),
+         url('../fonts/Ubuntu-B-webfont.svg#UbuntuBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'UbuntuLight';
+    src: url('../fonts/Ubuntu-L-webfont.eot');
+    src: url('../fonts/Ubuntu-L-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ubuntu-L-webfont.woff') format('woff'),
+         url('../fonts/Ubuntu-L-webfont.ttf') format('truetype'),
+         url('../fonts/Ubuntu-L-webfont.svg#UbuntuLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'UbuntuMedium';
+    src: url('../fonts/Ubuntu-M-webfont.eot');
+    src: url('../fonts/Ubuntu-M-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ubuntu-M-webfont.woff') format('woff'),
+         url('../fonts/Ubuntu-M-webfont.ttf') format('truetype'),
+         url('../fonts/Ubuntu-M-webfont.svg#UbuntuMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DroidSansRegular';
+    src: url('../fonts/DroidSans-webfont.eot');
+    src: url('../fonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DroidSans-webfont.woff') format('woff'),
+         url('../fonts/DroidSans-webfont.ttf') format('truetype'),
+         url('../fonts/DroidSans-webfont.svg#DroidSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DroidSansBold';
+    src: url('../fonts/DroidSans-Bold-webfont.eot');
+    src: url('../fonts/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DroidSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/DroidSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/DroidSans-Bold-webfont.svg#DroidSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+	
+
+body {
+	font-family: 'DroidSansRegular', Helvetica, Arial, Sans-serif;
+	font-size: 1em;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'UbuntuRegular', Helvetica, Arial, Sans-serif;
+	color: #D91A2A;
+}
+h1 {
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
 
 /*	Convenience classes
 	------------------- */
