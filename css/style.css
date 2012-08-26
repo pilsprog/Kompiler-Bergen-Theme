@@ -143,3 +143,33 @@ header {
 	box-shadow: 0px 0px 4px 4px #999999;
 }
 
+nav a {
+	color: #000;
+}
+
+.nav > li > a:hover {
+	color: #FFF;
+	text-decoration: none;
+	background-color: #D91A2A;
+}
+
+#banner {
+}
+
+.abyss {
+	height: 10em;
+	background-color: #333;
+}
+
+.abyss p {
+	padding-top: 3em;
+	padding-left: 18em;
+	color: #444;
+	font-size: x-large;
+}
+
+footer p {
+	font-size: small;
+	color:#BBB;
+}
+

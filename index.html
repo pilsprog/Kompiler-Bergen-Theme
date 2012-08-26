@@ -2,35 +2,41 @@
 <html>
 <head>
 	<title>Kompiler Bergen</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 
 <body>
 	<header class="clearfix">
-		<div class="std_wrapper center span12">
-			<div class="span6" id="logo">
-				<img src="images/kompiler.png" alt="Kompiler Bergen" />
-				Kompiler Bergen
-			<nav id="main_nav">
-				<ul>
-					<li><a href=""></a></li>
-				</ul>
-			</nav>
+		<div class=" center container">
+			<div class="row" id="logo">
+				<div class="span4">
+					<img src="images/kompiler.png" alt="Kompiler Bergen" />
+					Kompiler Bergen
+				</div>
+				<nav id="main_nav" class="span4 offset2">
+					<ul  class="nav nav-pills">
+						<li><a href="">Bedrifter</a></li>
+						<li><a href="">Organisasjoner</a></li>
+						<li><a href="">Arrangementer</a></li>
+					</ul>
+				</nav>
+			</div>
 		</div>
 	</header>
 	
-	<section class="clearfix" id="banner">
-		<div class="std_wrapper center span12">
-			<div class="red_transparent_box span4">
+	<section class="clearfix container" id="banner">
+		<div class="row">
+			<div class="span12">
 				<h1>Lonecoders unite</h1>
 				Hele IT-Bergen under samme paraply
 			</div>
 		</div>
 	</section>
 	
-	<section class="clearfix" id="frontpage_information">
-		<div class="std_wrapper center span12">
+	<section class="container" id="frontpage_information">
+		<div class="row">
 			<article class="span4">
 				<h2>Lorem ipsum</h2>
 				<p>Bacon ipsum dolor sit amet bresaola dolore consectetur ut, nostrud shoulder culpa pancetta in exercitation adipisicing frankfurter eiusmod ea laborum. Dolor nisi fugiat, commodo tenderloin eiusmod aliquip cow. Bresaola anim labore biltong kielbasa, ground round rump magna turducken tail in chicken. Officia irure ham hock in ribeye corned beef tenderloin ut.</p>
@@ -45,11 +51,20 @@
 			</article>
 		</div>
 	</section>
-	<section class="std_wrapper center span12">
-		<h2>Kommende arrangementer</h2>
-		<div class="abyss"></div>
+	<section class="container">
+		<div class="row">
+			<h2 class="span12">Kommende arrangementer</h2>
+		</div>
+		<div class="row">
+			<div class="abyss span12"><p>abyss of undesignedness</p></div>
+		</div>
 	</div>
-	<footer>
+	<footer class="container">
+		<div class="row">
+			<div class="span4 offset4">
+				<p>Laget av pilsprogere (cc by-sa) 2012</p>
+			</div>
+		</div>
 	</footer>
 </body>
 
